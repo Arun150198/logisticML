@@ -199,7 +199,7 @@ if selected=='Predict_Disease':
     - Thalium stress test result:(0: Normal,1: Fixed defect,2: Reversible defect,3: Not described)
     - Heart disease status (0 = no disease, 1 = presence of disease)
 """
-    st.title('Hear Disease Prediction ')
+    st.title('Heart Disease Prediction ')
     # ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach',
     #    'exang', 'oldpeak', 'slope', 'ca', 'thal', 'target']
     with st.expander('Attribute Info :'):
